@@ -1,20 +1,6 @@
 {
   "rewrites": [
-    { "source": "/install", "destination": "/install.html" }
-  ],
-  "headers": [
-    {
-      "source": "/Tawassul-Admin.apk",
-      "headers": [
-        { "key": "Content-Type", "value": "application/vnd.android.package-archive" },
-        { "key": "Content-Disposition", "value": "attachment; filename=\"Tawassul-Admin.apk\"" }
-      ]
-    },
-    {
-      "source": "/.well-known/assetlinks.json",
-      "headers": [
-        { "key": "Content-Type", "value": "application/json" }
-      ]
-    }
+    { "source": "/admin", "destination": "/admin.html" },
+    { "source": "/admin/", "destination": "/admin.html" }
   ]
 }
