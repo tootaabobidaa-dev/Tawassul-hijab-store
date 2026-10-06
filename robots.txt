@@ -1,5 +1,3 @@
 User-agent: *
 Allow: /
 Disallow: /admin.html
-
-Sitemap: https://tawassul-hijab-store-v2-seven.vercel.app/sitemap.xml
