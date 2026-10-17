@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /admin.html
+Disallow: /tawassul-install-package/
+
+Sitemap: https://tawassul-hijab-store-v2-seven.vercel.app/sitemap.xml
